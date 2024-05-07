@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-Html</title>
+    <style>
+        /* Body styles */
+        body{
+            background-color: aqua;
+        }
+         /* Navbar styles */
+         .navbar {
+            background-color: #333;
+            color: white;
+            padding: 1em;
+            display: flex;
+            justify-content: center;
+        }
+        .nav-list {
+            display: flex;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        .nav-list a {
+            color: white;
+            text-decoration: none;
+            margin-right: 20px;
+        }
+        /* p styles */
+        p{
+            font-size: medium;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+         /* Form styles */
+         form {
+            display: flex;
+            flex-direction: column;
+        }
+        form label {
+            margin-bottom: 5px;
+        }
+        form input, form textarea {
+            margin-bottom: 5px;
+        }
+  /* Footer styles */
+  footer {
+            background-color: #333;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+    </style>
+</head>
+<body >
+     <!-- Navbar -->
+ <nav class="navbar">
+    <ul class="nav-list">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#work">My Work</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+
+</nav>
+ <!-- About Section -->
+ <section id="about">
+    <h2>About Me</h2>
+    <p style="font-size: medium;font-family: Arial, Helvetica, sans-serif;">The name is Uzuokoh Dave <br>A young enthusiast in tech with the aim of solving problems and making life easier</p>
+    <div class="image"> <img src="image\davesoft.jpeg" alt="my picture"  style="width: 350px; height: 400px;" ></div>
+</section>
+
+ <!-- Work Section -->
+ <section id="work">
+    <h2>My Work</h2>
+    <ul>
+        <li><a href="#Project 1"style="font-size: medium;font-family: Arial, Helvetica, sans-serif;">Project 1</a></li>
+        <li><a href="#Project 2"style="font-size: medium;font-family: Arial, Helvetica, sans-serif;">Project 2</a></li>
+        <li><a href="#Project 3"style="font-size: medium;font-family: Arial, Helvetica, sans-serif;">Project 3</a></li>
+    </ul>
+</section>
+    <!-- Resume Section -->
+    <section id="resume">
+        <h2 style="font-size: medium;font-family: Arial, Helvetica, sans-serif;">RESUME:</h2>
+        <p>
+            <h3>Uzuokoh Dave</h3>
+            <h3>Web Developer</h23>
+            <h3>Summary:</h3>
+           <p> Experienced Web Developer proficient in front-end and back-end technologies. <br> Skilled in React, Angular, Node.js, and databases like MongoDB. Collaborative team player with a commitment to delivering high-quality solutions.</p>
+            <h3>Skills:</h3>
+           <p>- HTML5, CSS3, JavaScript
+            - React, Angular, Node.js
+            - MongoDB, MySQL, PostgreSQL</p> 
+            <h3>Tools:</h3>
+           <p>- Git, RESTful APIs, Agile</p> 
+            <h3>Experience:</h3>
+           <p>- Developed and maintained web applications using React.js at XYZ Tech Solutions.
+            - Assisted in building websites using HTML, CSS, and JavaScript at ABC Web Solutions.</p> 
+            <h3>Education:</h3>
+            <P>- Bachelor of Science in Computer Science.</P>
+            <h3>Certifications:</h3>
+           <p> - React.js Developer Certification.
+            - MongoDB for JavaScript Developers.</P>
+            <h3>Lanbguages:</h3>
+           <p> - English (Fluent)</p>
+            <h3>Contact:</h3>
+            <p>- Email: uzuokohdave@gmail.com
+            - Phone: +2348169655901
+            - LinkedIn: linkedin.com/in/uzuokohdave</P>
+           <h3>Portfolio:</h3> 
+           <iframe
+           width="420"
+           height="315"
+           src="https://www.youtube.com/embed/zcTFG_F0FRs"
+       ></iframe>
+          <p> References:</p> 
+            <audio controls>
+                <source src="image\babevn.ogg" type="audio/mpeg">
+                    Please Check the audio Extension
+            </audio>
+        <form>
+           
+        </form>
+    </section> 
+ <!-- Contact Section -->
+ <section id="contact">
+    <h2>Get in Touch</h2>
+    <form>
+        <label for="name"style="font-size: medium;font-family: Arial, Helvetica, sans-serif;">Name:</label>
+        <input type="text" id="name" name="name"style="width: 200px;">
+        <label for="email"style="font-size: medium;font-family: Arial, Helvetica, sans-serif;">Email:</label>
+        <input type="email" id="email" name="email"style="width: 200px;">
+        <label for="message"style="font-size: medium;font-family: Arial, Helvetica, sans-serif;">Message:</label>
+        <textarea id="message" name="message"style="width: 200px;"></textarea>
+        <input type="submit" value="Send" style="width: 150px;">
+    </form>
+</section>
+
+
+
+
+
+
+
+
+     <!-- Page Footer -->
+     <footer>
+        @ 2023 Soft Tech Inc  
+    </footer>
+</body>
+</html>
